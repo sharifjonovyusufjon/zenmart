@@ -480,7 +480,7 @@
   color: rgb(98, 105, 116);
 }
 
-.product_pagination_box {
+.selling_product_frame .product_pagination_box {
   position: relative;
   width: 100%;
   height: auto;
@@ -490,7 +490,7 @@
   justify-content: center;
 }
 
-.product_pagination_box img {
+.selling_product_frame .product_pagination_box img {
   margin-top: 51px;
   width: 160.43px;
   height: 24px;
