@@ -479,3 +479,19 @@
   text-decoration: line-through;
   color: rgb(98, 105, 116);
 }
+
+.product_pagination_box {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product_pagination_box img {
+  margin-top: 51px;
+  width: 160.43px;
+  height: 24px;
+}
