@@ -28,6 +28,60 @@
   border-bottom: 2px solid rgb(4, 30, 66);
 }
 
+/*pagination*/
+
+.container .pagination_box {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container .pagination_box .pagination_main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .pagination_main .pagination_dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container .pagination_main img {
+  cursor: pointer;
+}
+
+.container .pagination_dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.container .pagination_dot .dot:active {
+  border: 2px solid rgb(17, 33, 55);
+}
+
+.container .pagination_dot .dot div {
+  width: 4px;
+  height: 4px;
+  background-color: rgb(17, 33, 55);
+  border-radius: 50%;
+}
+
 .header_frame {
   position: relative;
   margin-top: 47px;
@@ -346,6 +400,7 @@
 .selling_product_frame .next_prev_box img {
   position: absolute;
   top: 50%;
+  cursor: pointer;
 }
 
 .selling_product_frame .product_wrapper .product_boxes {
@@ -478,20 +533,4 @@
   line-height: 22px;
   text-decoration: line-through;
   color: rgb(98, 105, 116);
-}
-
-.selling_product_frame .product_pagination_box {
-  position: relative;
-  width: 100%;
-  height: auto;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.selling_product_frame .product_pagination_box img {
-  margin-top: 51px;
-  width: 160.43px;
-  height: 24px;
 }
