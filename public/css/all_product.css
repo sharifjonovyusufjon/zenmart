@@ -20,7 +20,6 @@
 
 .container .page_top {
   position: relative;
-  margin-bottom: 14px;
   width: 100%;
   height: auto;
 
@@ -32,7 +31,8 @@
 }
 
 .page_top a {
-  margin-right: 40px;
+  margin: 0 40px 0 0;
+  padding-bottom: 14px;
   font-family: "Jost";
   font-size: 15px;
   font-weight: 400;
