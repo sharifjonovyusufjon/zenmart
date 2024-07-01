@@ -293,3 +293,222 @@ p {
 
   color: #ffffff;
 }
+
+/*FOUTER*/
+
+.fouter_frame {
+  position: relative;
+  padding: 90px 0 20px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: rgb(243, 245, 246);
+}
+
+.fouter_frame .container {
+  flex-direction: column;
+}
+
+.fouter_frame .container .fouter_top {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.fouter_frame .fouter_top .fouter_contact_box {
+  width: 285px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.fouter_frame .fouter_contact_box .fouter_title {
+  font-family: "Jost";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(4, 30, 66);
+}
+
+.fouter_frame .fouter_contact_box .contact_content_boxes {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fouter_frame .contact_content_boxes img {
+  width: 35px;
+  height: 22px;
+}
+
+.fouter_frame .contact_content_boxes .contact_content_box {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fouter_frame .contact_content_box span {
+  margin-bottom: 10px;
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+
+.fouter_frame .fouter_top .fouter_support_box {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fouter_frame .fouter_support_box .support_main_box {
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fouter_frame .support_main_box .support_content_boxes {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fouter_frame .support_content_boxes a {
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.fouter_frame .fouter_top .fouter_media_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.fouter_frame .fouter_media_box .media_left_box {
+  margin-right: 80px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fouter_frame .media_left_box .media_main_box {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fouter_frame .media_main_box .media_content_boxes {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fouter_frame .media_content_boxes i {
+  margin-right: 28px;
+}
+
+.fouter_frame .media_main_box .media_boxes {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fouter_frame .media_boxes .media_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fouter_frame .media_box img {
+  width: 20px;
+  height: 12px;
+}
+
+.fouter_frame .media_box span {
+  margin-left: 15px;
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.fouter_frame .fouter_top .media_right_box {
+  margin-top: 136px;
+}
+
+.fouter_frame .container .fouter_bott {
+  margin-top: 90px;
+  width: 100%;
+  height: 61px;
+
+  border-top: 1px solid rgb(234, 234, 234);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fouter_frame .fouter_bott .fouter_main_up {
+  display: flex;
+  flex-direction: row;
+}
+
+.fouter_frame .fouter_main_up span {
+  margin-right: 66px;
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.fouter_frame .fouter_bott .fouter_main_wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.fouter_frame .fouter_main_wrap .main_wrap_box {
+  margin-right: 21px;
+  width: 187px;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+  background: rgb(255, 255, 255);
+}
+
+.fouter_frame .main_wrap_box span {
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(98, 105, 116);
+}
+
+.fouter_frame .main_wrap_box select {
+  padding-right: 25px;
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+
+  border: none;
+  outline: none;
+}

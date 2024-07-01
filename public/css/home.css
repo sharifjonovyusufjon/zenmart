@@ -777,6 +777,7 @@
   justify-content: center;
 
   background-image: url("../images/header/header_backround.svg");
+  background-size: cover;
 }
 
 .event_frame .container {
