@@ -464,7 +464,7 @@
   flex-direction: column;
 }
 
-.container .selling_top {
+.selling_frame .container .selling_top {
   width: 100%;
   height: auto;
 
@@ -474,7 +474,7 @@
   align-items: center;
 }
 
-.selling_top strong {
+.selling_frame .selling_top strong {
   font-family: "Jost";
   font-style: normal;
   font-size: 28px;
@@ -485,7 +485,7 @@
   color: rgb(4, 30, 66);
 }
 
-.selling_top .pagination_box {
+.selling_frame .selling_top .pagination_box {
   position: relative;
   height: auto;
 
@@ -493,7 +493,7 @@
   flex-direction: row;
 }
 
-.selling_top .pagination_box .pagination_main {
+.selling_frame .selling_top .pagination_box .pagination_main {
   width: auto;
   height: 24px;
 
@@ -503,17 +503,17 @@
   justify-content: space-between;
 }
 
-.selling_top .pagination_main .pagination_dot {
+.selling_frame .selling_top .pagination_main .pagination_dot {
   margin: 0 20px;
   display: flex;
   flex-direction: row;
 }
 
-.selling_top .pagination_main img {
+.selling_frame .selling_top .pagination_main img {
   cursor: pointer;
 }
 
-.selling_top .pagination_dot .dot {
+.selling_frame .selling_top .pagination_dot .dot {
   width: 20px;
   height: 20px;
 
@@ -523,18 +523,18 @@
   border-radius: 50%;
 }
 
-.selling_top .pagination_dot .dot:active {
+.selling_frame .selling_top .pagination_dot .dot:active {
   border: 2px solid rgb(17, 33, 55);
 }
 
-.selling_top .pagination_dot .dot div {
+.selling_frame .selling_top .pagination_dot .dot div {
   width: 4px;
   height: 4px;
   background-color: rgb(17, 33, 55);
   border-radius: 50%;
 }
 
-.container .selling_wrapper {
+.selling_frame .container .selling_wrapper {
   margin-top: 30px;
   width: 100%;
   height: auto;
@@ -544,7 +544,7 @@
   justify-content: space-between;
 }
 
-.selling_wrapper .selling_product_boxes {
+.selling_frame .selling_wrapper .selling_product_boxes {
   width: 1300px;
   height: 392px;
 
@@ -552,7 +552,7 @@
   flex-direction: row;
 }
 
-.selling_product_boxes .selling_product_box {
+.selling_frame .selling_product_boxes .selling_product_box {
   width: 260px;
   height: 452px;
 
@@ -561,7 +561,7 @@
   align-items: center;
 }
 
-.selling_product_box .product_img {
+.selling_frame .selling_product_box .product_img {
   width: 100%;
   height: 190px;
   display: flex;

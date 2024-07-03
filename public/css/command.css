@@ -1,3 +1,7 @@
+:root {
+  --font: "Jost";
+}
+
 html,
 body {
   margin: 0;
@@ -88,7 +92,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -103,7 +107,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -167,7 +171,7 @@ p {
 }
 
 .navbar_frame .box_info_box span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -176,7 +180,7 @@ p {
 }
 
 .navbar_frame .box_info_box strong {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -200,7 +204,7 @@ p {
   border-radius: 50%;
 
   color: rgb(11, 30, 64);
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 8px;
   font-weight: 700;
   line-height: 10px;
@@ -243,7 +247,7 @@ p {
 }
 
 .navbar_frame .browse_box span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -266,7 +270,7 @@ p {
 }
 
 .navbar_frame .router_menu a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-size: 16px;
   font-weight: 500;
@@ -285,7 +289,7 @@ p {
 
 .navbar_frame .sorting_menu span {
   margin-left: 20px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -329,7 +333,7 @@ p {
 }
 
 .fouter_frame .fouter_contact_box .fouter_title {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
@@ -355,7 +359,7 @@ p {
 
 .fouter_frame .contact_content_box span {
   margin-bottom: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -381,7 +385,7 @@ p {
 }
 
 .fouter_frame .support_content_boxes a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -435,7 +439,7 @@ p {
 
 .fouter_frame .media_box span {
   margin-left: 15px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -466,7 +470,7 @@ p {
 
 .fouter_frame .fouter_main_up span {
   margin-right: 66px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -494,7 +498,7 @@ p {
 }
 
 .fouter_frame .main_wrap_box span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -503,7 +507,7 @@ p {
 
 .fouter_frame .main_wrap_box select {
   padding-right: 25px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
