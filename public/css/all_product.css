@@ -14,7 +14,7 @@
 }
 
 .container .main_top strong {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-size: 28px;
   font-weight: 500;
@@ -34,7 +34,7 @@
 }
 
 .container .product_content_box .product_title {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -45,7 +45,7 @@
 .container .product_content_box .product_desc {
   margin-top: 7px;
   height: 56px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -66,7 +66,7 @@
 
 .container .review_box span {
   margin-left: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -81,7 +81,7 @@
 }
 
 .container .price_box strong {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;
@@ -90,7 +90,7 @@
 
 .container .price_box span {
   margin-left: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -128,7 +128,7 @@
 .page_top a {
   margin: 0 40px 0 0;
   padding-bottom: 14px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -150,7 +150,7 @@
 }
 
 .page_bott a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -159,7 +159,7 @@
 
 .page_bott span {
   margin: 0 7px 0 7px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -199,7 +199,7 @@
   margin-top: 36px;
   width: 366px;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -208,7 +208,7 @@
 
 .header_frame .header_content p {
   margin-top: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -228,7 +228,7 @@
   border-radius: 6px;
   background: rgb(245, 195, 75);
 
-  font-family: "Jost";
+  font-family: (--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -304,7 +304,7 @@
 }
 
 .shop_category_frame .category_top span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-size: 28px;
   font-weight: 500;
@@ -316,7 +316,7 @@
 
 .shop_category_frame .category_top a {
   margin-left: 30px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -388,7 +388,7 @@
 
 .shop_category_frame .category_box span {
   margin-top: 15px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -432,7 +432,7 @@
   justify-content: center;
   align-items: center;
 
-  font-family: "Jost";
+  font-family: (--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -475,7 +475,7 @@
 }
 
 .selling_frame .selling_top strong {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-size: 28px;
   font-weight: 500;
@@ -568,4 +568,227 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.allproduct_frame {
+  position: relative;
+  margin-top: 65px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.allproduct_frame .container {
+  flex-direction: column;
+}
+
+.container .all_top {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.all_top .all_top_text_box {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.all_top_text_box strong {
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.all_top_text_box span {
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+
+.all_top .all_top_option_boxes {
+  width: 100%;
+  height: auto;
+  margin-top: 41px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.all_top_option_boxes .all_top_option_box {
+  position: relative;
+  width: 91px;
+  height: 36px;
+  margin-right: 8px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+
+  outline: none;
+  border: none;
+  border-radius: 60px;
+  background: rgb(243, 245, 246);
+}
+
+.all_top_option_box select {
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+  background: rgb(243, 245, 246);
+  outline: none;
+  border: none;
+}
+
+.container .all_content {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.all_content .all_product_boxes {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.all_product_boxes .all_product_box {
+  width: 263px;
+  height: 452px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all_product_box .product_img {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.all_content .product_content_box {
+  padding: 5px 34px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.all_pagination_box {
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 90px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.all_pagination_box .all_pagination_main {
+  width: 460px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.all_pagination_main .pagination_dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.all_pagination_box .dot_img {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.all_pagination_box .dot_img {
+  border: 2px solid rgb(234, 234, 234);
+}
+
+.all_pagination_box .dot_img.active {
+  border: 2px solid rgb(17, 33, 55);
+}
+
+.all_pagination_box .dot_img:active {
+  border: 2px solid rgb(17, 33, 55);
+}
+
+.all_pagination_main img {
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+}
+
+.all_pagination_box .pagination_dot .dot {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.all_pagination_box .pagination_dot .dot.active {
+  background-color: rgb(233, 227, 227);
+}
+
+.all_pagination_box .pagination_dot .dot:active {
+  background: rgb(245, 195, 75);
+}
+
+.all_pagination_box .pagination_dot .dot.actived {
+  background: rgb(245, 195, 75);
+}
+
+.all_pagination_box .pagination_dot .dot div {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(17, 33, 55);
 }
